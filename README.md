@@ -35,9 +35,9 @@ TicketPulse is a feature-rich, reliable Discord bot engineered for seamless tick
 
 ## 🛠️ Getting Started
 
-1. **Invite TicketPulse to your server.**
-2. **Configure your settings using the dashboard or commands.**
-3. **Start managing tickets with advanced automation and moderation!**
+1. **Join our Support Server and create a Ticket to learn more**
+
+NOTE: Modification or free-commercial use of this is strictly prohibited | You need a License Key to use this program otherwise it will self-destruct the whole directory!!
 
 ---
 
@@ -81,6 +81,7 @@ TicketPulse is a feature-rich, reliable Discord bot engineered for seamless tick
 
 - **All-in-one solution for support and moderation**
 - **Automation that saves time and effort**
+- **HTML Transcripts**
 - **Customizable, scalable, and secure**
 - **Modern UI and seamless Discord integration**
 - **Perfect for any community, business, or team**
@@ -96,7 +97,7 @@ Join our [Support Server](https://discord.gg/6Rfg34EDkU) or visit [GitHub](https
 
 ## 📝 License
 
-TicketPulse is released under the [MIT License](LICENSE).
+TicketPulse is released under the [BSL 1.1 License](LICENSE).
 
 ---
 

@@ -91,7 +91,7 @@ NOTE: Modification or free-commercial use of this is strictly prohibited | You n
 ## 📞 Support & Contribution
 
 Questions or feedback?  
-Join our [Support Server](https://discord.gg/6Rfg34EDkU) or visit [GitHub](https://github.com/VeduStorm/TicketPulse) to contribute.
+Join our [Support Server](https://dsc.gg/ticketpulse) or visit [GitHub](https://github.com/VeduStorm/TicketPulse) to contribute.
 
 ---
 

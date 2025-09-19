@@ -36,8 +36,11 @@ TicketPulse is a feature-rich, reliable Discord bot engineered for seamless tick
 ## 🛠️ Getting Started
 
 1. **Join [Support Server](https://dsc.gg/TicketPulse) to obtain your License Key (Free for Now)**
-2. **Edit the code as directed in Server**
-3. ***Enjoy***
+2. **Edit the following files in the code:
+**   - config/*.json
+**   - plugins/\*/\*.json
+**   - src/actions/deleteFile.ts : ln 142**
+4. ***Enjoy***
 
 **NOTE: THE PROGRAM WILL SELF-DESTRUCT AND DELETE ALL FILES IN THAT PARTICULAR DIRECTORY IF YOU DON'T HAVE A APPROVED LICENSE KEY!**
 

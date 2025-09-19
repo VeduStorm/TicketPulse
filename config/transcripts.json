@@ -1,0 +1,55 @@
+{
+    "general":{
+        "enabled":false,
+
+        "enableChannel":true,
+        "enableCreatorDM":false,
+        "enableParticipantDM":false,
+        "enableActiveAdminDM":false,
+        "enableEveryAdminDM":false,
+
+        "channel":"1415588492624527452",
+        "mode":"text"
+    },
+    "embedSettings":{
+        "customColor":"#f8ab00",
+        "listAllParticipants":true,
+        "includeTicketStats":true
+    },
+    "textTranscriptStyle":{
+        "layout":"normal",
+        "includeStats":true,
+        "includeIds":true,
+        "includeEmbeds":true,
+        "includeFiles":true,
+        "includeBotMessages":true,
+
+        "fileMode":"channel-id",
+        "customFileName":"transcript"
+    },
+    "htmlTranscriptStyle":{
+        "background":{
+            "enableCustomBackground":false,
+            "backgroundColor":"#f8ba00 (or leave empty)",
+            "backgroundImage":""
+        },
+        "header":{
+            "enableCustomHeader":false,
+            "backgroundColor":"#202225",
+            "decoColor":"#f8ba00",
+            "textColor":"#ffffff"
+        },
+        "stats":{
+            "enableCustomStats":true,
+            "backgroundColor":"#202225",
+            "keyTextColor":"#737373",
+            "valueTextColor":"#ffffff",
+            "hideBackgroundColor":"#40444a",
+            "hideTextColor":"#ffffff"
+        },
+        "favicon":{
+            "enableCustomFavicon":false,
+            "imageUrl":""
+        }
+    }
+}

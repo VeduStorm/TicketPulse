@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true,
+    "outDir": "./dist/",
+    "rootDir": "./",
+
+    "types": ["node"],
+
+    "noEmit": false,
+    "allowImportingTsExtensions": false,
+    "allowJs": false,
+    "checkJs": false,
+    "declaration": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src", "./plugins"]
+}

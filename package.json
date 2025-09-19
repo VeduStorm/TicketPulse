@@ -1,0 +1,53 @@
+{
+    "name": "ticketpulse",
+    "author": "Cool Guy",
+    "type": "commonjs",
+    "version": "4.0.7",
+    "description": "The most advanced open-source discord ticket bot with HTML transcripts, plugins, questions, claiming, pinning & more! Using discord.js v14 & JSON database! ",
+    "keywords": [
+        "ticket-bot",
+        "discord",
+        "open-ticket",
+        "plugins",
+        "discord-ticket-bot"
+    ],
+    "main": "index.js",
+    "scripts": {
+        "build": "node index.js --compile-only",
+        "start": "node index.js -ne -nm",
+        "startnc": "node index.js --no-compile -ne -nm",
+        "test": "node index.js --dev-config --dev-database",
+        "testnc": "node index.js --no-compile --dev-config --dev-database"
+    },
+    "license": "BUSL‑1.1",
+    "dependencies": {
+        "@discordjs/rest": "^2.4.2",
+        "@types/node": "^22.5.0",
+        "adm-zip": "^0.5.16",
+        "ansis": "^2.3.0",
+        "discord-html-transcripts": "^3.2.0",
+        "discord.js": "^14.19.3",
+        "form-data": "^4.0.4",
+        "formatted-json-stringify": "^1.1.0",
+        "node-fetch": "2.0.0",
+        "sqlite3": "^5.1.7",
+        "typescript": "^5.9.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VeduStorm/TicketPulse.git"
+    },
+    "bugs": {
+        "url": "https://github.com/VeduStorm/Tickets-Bot/issues",
+        "email": "vedant.storm@gmail.com"
+    },
+    "homepage": "https://github.com/VeduStorm",
+    "imports": {
+        "#opendiscord": "./dist/src/index.js",
+        "#opendiscord-types": "./dist/src/core/api/api.js"
+    },
+    "funding": {
+        "type": "individual",
+        "url": "https://github.com/VeduStorm"
+    }
+}

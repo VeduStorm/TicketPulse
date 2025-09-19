@@ -1,0 +1,97 @@
+{
+    "_INFO":{
+        "support":"https://github.com/VeduStorm",
+        "discord":"https://discord.gg/6Rfg34EDkU",
+        "version":"open-ticket-v4.0.7",
+        "license":"",
+        "version": "4.1.0"
+    },
+    
+    "token":"",
+    "tokenFromENV":false,
+
+    "mainColor":"#f8ba00",
+    "language":"english",
+    "prefix":"t!",
+    "serverId":"",
+    "globalAdmins":["roleid1", "roleid2"],
+
+    "slashCommands":true,
+    "textCommands":true,
+
+    "status":{
+        "enabled":true,
+        "type":"watching",
+        "text":"Tickets",
+        "status":"idle"
+    },
+
+    "system":{
+        "removeParticipantsOnClose":true,
+        "replyOnTicketCreation":true,
+        "replyOnReactionRole":true,
+        "useTranslatedConfigChecker":true,
+        "preferSlashOverText":true,
+        "sendErrorOnUnknownCommand":true,
+        "questionFieldsInCodeBlock":true,
+        "disableVerifyBars":false,
+        "useRedErrorEmbeds":true,
+        "emojiStyle":"double",
+
+        "enableTicketClaimButtons":true,
+        "enableTicketCloseButtons":true,
+        "enableTicketPinButtons":true,
+        "enableTicketDeleteButtons":true,
+        "enableTicketActionWithReason":true,
+        "enableDeleteWithoutTranscript":false,
+
+        "logs":{
+            "enabled":true,
+            "channel":"logs_channel_id"
+        },
+        
+        "limits":{
+            "enabled":false,
+            "globalMaximum":100,
+            "userMaximum":3
+        },
+
+        "permissions":{
+            "help":"everyone",
+            "panel":"admin",
+            "ticket":"admin",
+            "close":"everyone",
+            "delete":"admin",
+            "reopen":"everyone",
+            "claim":"admin",
+            "unclaim":"admin",
+            "pin":"admin",
+            "unpin":"admin",
+            "move":"admin",
+            "rename":"admin",
+            "add":"admin",
+            "remove":"admin",
+            "blacklist":"admin",
+            "stats":"everyone",
+            "clear":"admin",
+            "autoclose":"admin",
+            "autodelete":"admin"
+        },
+
+        "messages":{
+            "creation":{"dm":false, "logs":true},
+            "closing":{"dm":true, "logs":true},
+            "deleting":{"dm":false, "logs":true},
+            "reopening":{"dm":true, "logs":true},
+            "claiming":{"dm":true, "logs":true},
+            "pinning":{"dm":false, "logs":true},
+            "adding":{"dm":true, "logs":true},
+            "removing":{"dm":true, "logs":true},
+            "renaming":{"dm":true, "logs":true},
+            "moving":{"dm":true, "logs":true},
+            "blacklisting":{"dm":true, "logs":true},
+            "roleAdding":{"dm":false, "logs":true},
+            "roleRemoving":{"dm":false, "logs":true}
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "_INFO":"!!!More detailed info about the variables can be found in the README.md!!!",
+    
+    "channel":"1417809131766546444",
+    "reviewMode":"one-per-ticket",
+    
+    "enableRating":true,
+    "enableImages":true,
+    "enableAuthor":true,
+    "allowBlacklisted":false,
+
+    "customisation":{
+        "title":"New Review",
+        "ratingTitle":"Rating:",
+        "reviewTitle":"Review:",
+
+        "customColor":"#f8ab00",
+        "url":"",
+        "thumbnail":"image_url",
+        "footer":"",
+        "timestamp":true
+    }
+}

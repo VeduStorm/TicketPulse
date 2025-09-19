@@ -1,0 +1,14 @@
+[
+  {
+    "option": "i2c",
+    "messages": ["tos"]
+  },
+  {
+    "option": "c2i",
+    "messages": ["tos"]
+  },
+  {
+    "option": "c2c",
+    "messages": ["tos"]
+  }
+]

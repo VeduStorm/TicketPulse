@@ -1,0 +1,10 @@
+version: '3'
+services:
+  Tickets:
+    build: .
+    volumes:
+      - Tickets:/home/container
+    restart: no
+    container_name: Tickets
+volumes:
+  openticket:

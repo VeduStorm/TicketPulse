@@ -1,0 +1,21 @@
+{
+    "amountOfTicketsBeforeWarning":20,
+
+    "customMessage": {
+        "enabled":true,
+        "ping":true,
+        "text":"",
+        "embed":{
+            "enabled":true,
+            "title":"Staff Busy",
+            "titleEmoji":"📢",
+            "description":"You might expect a little delay in resolution of your ticket as we are having too many tickets at the moment",
+            "customColor":"#f8ba00",
+            
+            "image":"",
+            "thumbnail":"image_url",
+            "fields":[],
+            "timestamp":true
+        }
+    }
+}

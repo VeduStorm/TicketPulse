@@ -1,0 +1,86 @@
+[
+    {
+        "id":"support",
+        "name":"Support",
+        "description":"Get Support",
+        "type":"ticket",
+
+        "button":{
+            "emoji":"",
+            "label":"Support Ticket",
+            "color":"blue"
+        },
+
+        "ticketAdmins":["roleid"],
+        "readonlyAdmins":[],
+        "allowCreationByBlacklistedUsers":false,
+        "questions":["example-question-1", "example-question-2"],
+
+        "channel":{
+            "prefix":"support-",
+            "suffix":"user-name",
+            "category":"categid",
+            "closedCategory":"categid",
+            "backupCategory":"categid",
+            "claimedCategory":[],
+            "description":""
+        },
+        
+        "dmMessage":{
+            "enabled":false,
+            "text":"Thank you for creating a ticket in our server!",
+            "embed":{
+                "enabled":false,
+                "title":"Support Ticket",
+                "description":"",
+                "customColor":"#f8ab00",
+
+                "image":"",
+                "thumbnail":"image_url",
+                "fields":[],
+                "timestamp":true
+            }
+        },
+        "ticketMessage":{
+            "enabled":true,
+            "text":"",
+            "embed":{
+                "enabled":true,
+                "title":"Support Ticket",
+                "description":"Thank you for creating a ticket in our server!\nOur team will help you as soon as possible!\n\n\n NOTE: This is not a real exchange ticket and is just used to test bot!",
+                "customColor":"#f8ab00",
+
+                "image":"",
+                "thumbnail":"image_url",
+                "fields":[],
+                "timestamp":true
+            },
+            "ping":{
+                "@here":false,
+                "@everyone":false,
+                "custom":["roleid"]
+            }
+        },
+        "autoclose":{
+            "enableInactiveHours":true,
+            "inactiveHours":24,
+            "enableUserLeave":true,
+            "disableOnClaim":false
+        },
+        "autodelete":{
+            "enableInactiveDays":false,
+            "inactiveDays":2,
+            "enableUserLeave":false,
+            "disableOnClaim":false
+        },
+        "cooldown":{
+            "enabled":false,
+            "cooldownMinutes":10
+        },
+        "limits":{
+            "enabled":false,
+            "globalMaximum":50,
+            "userMaximum":1
+        }
+    }
+]

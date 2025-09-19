@@ -1,0 +1,36 @@
+[
+    {
+        "id":"panel-main",
+        "name":"Panel 1",
+        "dropdown":true,
+        "options":["support"],
+
+        "text":"",
+        "embed":{
+            "enabled":true,
+            "title":"Tickets:",
+            "description":"Create a ticket by clicking one of the buttons below!",
+            
+            "customColor":"#f8ab00",
+            "url":"",
+
+            "image":"",
+            "thumbnail":"image_url",
+            
+            "footer":"",
+            "fields":[],
+            "timestamp":false
+        },
+        "settings":{
+            "dropdownPlaceholder":"Create a ticket!",
+
+            "enableMaxTicketsWarningInText":false,
+            "enableMaxTicketsWarningInEmbed":true,
+
+            "describeOptionsLayout":"normal",
+            "describeOptionsCustomTitle":"",
+            "describeOptionsInText":false,
+            "describeOptionsInEmbedFields":false,
+            "describeOptionsInEmbedDescription":false
+        }
+    }]

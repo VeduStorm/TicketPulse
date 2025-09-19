@@ -1,0 +1,107 @@
+{
+    "stateSwitchDelaySeconds":600,
+    "states":[
+        {
+            "type":"watching",
+            "text":"Server size: {user-count}",
+            "status":"idle"
+        },
+        {
+            "type":"playing",
+            "text":"with {tickets} Tickets",
+            "status":"dnd"
+        },
+        {
+            "type":"listening",
+            "text":"for {uptime} min(s)",
+            "status":"idle"
+        },
+        {
+            "type":"listening",
+            "text":"Music to reduce stress",
+            "status":"dnd"
+        },
+        {
+            "type":"watching",
+            "text":"Anime",
+            "status":"dnd"
+        },
+        {
+            "type":"playing",
+            "text":"Minecraft",
+            "status":"dnd"
+        },
+        {
+            "type":"custom",
+            "text":"Getting bored as no one is making Tickets",
+            "status":"online"
+        },
+        {
+            "type":"watching",
+            "text":"Komi Can't Communicate",
+            "status":"dnd"
+        },
+        {
+            "type":"custom",
+            "text":"Busy",
+            "status":"dnd"
+        },
+        {
+            "type":"watching",
+            "text":"{channels} Channels",
+            "status":"idle"
+        },
+        {
+            "type":"watching",
+            "text":"Priority Ticket: {priority}",
+            "status":"dnd"
+        },
+        {
+            "type":"custom",
+            "text":"Tickets; Created: {tickcre) | Deleted: {tickdel}",
+            "status":"online"
+        },
+        {
+          "type": "listening",
+          "text": "Someone please create a Ticket",
+          "status": "online"
+        }
+    ],
+    "_VAR_INFO":"Check all available variables in the 'VARIABLES.txt' file!",
+    "variables":[
+        {
+            "name":"{user-count}",
+            "variable":"guild.members.all"
+        },
+        {
+            "name":"{tickets}",
+            "variable":"tickets.open"
+        },
+        {
+          "name":"{uptime}",
+          "variable":"system.uptime.minutes"
+
+        },
+        {
+          "name":"{channels}",
+          "variable":"guild.channels"
+
+        },
+        {
+          "name":"{priority}",
+          "variable":"tickets.pinned"
+        },
+        {
+          "name":"{tanbot}",
+          "variable":"guild.bots"
+        },
+        {
+          "name":"{tickcre}",
+          "variable":"stats.tickets.created"
+        },
+        {
+          "name":"{tickdel}",
+          "variable":"stats.tickets.deleted"
+        }
+    ]
+}

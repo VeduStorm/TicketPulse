@@ -1,0 +1,6 @@
+{
+    "unclaimOnMove":true,
+    "unpinOnMove":true,
+    "unclaimOnCategoryChange":true,
+    "unpinOnCategoryChange":true
+}

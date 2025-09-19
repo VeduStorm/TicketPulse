@@ -1,0 +1,62 @@
+[
+    {
+        "message":{
+            "title":"TicketPulse v4.0",
+            "titleColor":"red",
+            "description":"TicketPulse v4.0 has officially been released! Please give our project a star to help us grow!",
+            "descriptionColor":"normal"
+        },
+        "active":{
+            "versions":["4.0.0","4.0.1","4.0.2","4.0.3","4.0.4"],
+            "languages":[],
+            "allLanguages":true,
+            "usingPlugins":true,
+            "notUsingPlugins":true,
+            "usingSlashCommands":true,
+            "notUsingSlashCommands":true,
+            "notUsingTranscripts":true,
+            "usingTextTranscripts":true,
+            "usingHtmlTranscripts":true
+        }
+    },
+    {
+        "message":{
+            "title":"Documentation",
+            "titleColor":"blue",
+            "description":"The official documentation for TicketPulse v4 is available at https://github.com/VeduStorm!",
+            "descriptionColor":"normal"
+        },
+        "active":{
+            "versions":["4.0.0","4.0.1","4.0.2","4.0.3","4.0.4","4.0.5","4.0.6","4.0.7","4.0.8","4.0.9","4.1.0"],
+            "languages":[],
+            "allLanguages":true,
+            "usingPlugins":true,
+            "notUsingPlugins":true,
+            "usingSlashCommands":true,
+            "notUsingSlashCommands":true,
+            "notUsingTranscripts":true,
+            "usingTextTranscripts":true,
+            "usingHtmlTranscripts":true
+        }
+    },
+    {
+        "message":{
+            "title":"Support Us",
+            "titleColor":"magenta",
+            "description":"Support our development",
+            "descriptionColor":"normal"
+        },
+        "active":{
+            "versions":["4.0.0","4.0.1","4.0.2","4.0.3","4.0.4","4.0.5","4.0.6","4.0.7","4.0.8","4.0.9","4.1.0"],
+            "languages":[],
+            "allLanguages":true,
+            "usingPlugins":true,
+            "notUsingPlugins":true,
+            "usingSlashCommands":true,
+            "notUsingSlashCommands":true,
+            "notUsingTranscripts":true,
+            "usingTextTranscripts":true,
+            "usingHtmlTranscripts":true
+        }
+    }
+]

@@ -1,0 +1,52 @@
+{
+    "generalFooter":{
+        "enabled":true,
+        "includePluginEmbeds":true,
+        "footer":"Credits: Cool Guy (cool_guy.57)",
+        "footerImage":""
+    },
+    "dmLogsFooter":{
+        "enabled":true,
+        "footer":"Credits: Cool Guy (cool_guy.57)",
+        "footerImage":""
+    },
+    "logsFooter":{
+        "enabled":true,
+        "footer":"Credits: Cool Guy (cool_guy.57)",
+        "footerImage":""
+    },
+    "errorFooter":{
+        "enabled":false,
+        "footer":"Credits: Cool Guy (cool_guy.57)",
+        "footerImage":""
+    },
+    "panel-FooterImages":[
+        {
+            "id":"panel-exchange",
+            "panel-Footer":"Credits: Cool Guy (cool_guy.57)", 
+            "panel-FooterImage":""
+        },
+        {
+            "id":"panel-donate",
+            "panel-Footer":"Credits: Cool Guy (cool_guy.57)", 
+            "panel-FooterImage":""
+        },
+        {
+            "id":"panel-support",
+            "panel-Footer":"Credits: Cool Guy (cool_guy.57)", 
+            "panel-FooterImage":""
+        },
+        {
+            "id":"panel-apply",
+            "panel-Footer":"Credits: Cool Guy (cool_guy.57)", 
+            "panel-FooterImage":""
+        },
+        {
+            "id":"panel-mm",
+            "panel-Footer":"Credits: Cool Guy (cool_guy.57)", 
+            "panel-FooterImage":""
+        }
+    ],
+    "optionFooterImages":[
+    ]
+}

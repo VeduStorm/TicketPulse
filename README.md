@@ -55,7 +55,7 @@ TicketPulse is a feature-rich, reliable Discord bot engineered for seamless tick
 | `/embed`        | Create a custom embed                                            |
 | `/reload`       | Reload config file changes instantly                             |
 | `/shutdown`     | Remotely shut down the bot                                       |
-| `/remindr`      | Manage auto-reminders (create/delete/list/pause)                 |
+| `/reminder`     | Manage auto-reminders (create/delete/list/pause)                 |
 | `/hosting`      | Send outage/problem notification embed                           |
 | `/blacklist`    | Blacklist management (add/view/remove/get)                       |
 | `/stats`        | View global, user, or ticket-specific statistics                 |
@@ -70,13 +70,6 @@ TicketPulse is a feature-rich, reliable Discord bot engineered for seamless tick
 | `/close`        | Close a ticket                                                   |
 | `/delete`       | Delete a ticket (with transcript)                                |
 | `/reopen`       | Reopen a closed ticket                                           |
-
----
-
-## 📝 Notation
-
-- `<name>`: Required parameter
-- `[name]`: Optional parameter
 
 ---
 
